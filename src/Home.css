@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.home-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+.new-signup-discount {
+  width: 95rem;
+  align-self: center;
+}
+.sale-poster {
+  width: 50%;
+}
+.coupon-surprises {
+  width: 100%;
+}
+.new-user-coupons {
+  width: 50%;
+}
+.crazy-deals {
+  width: 100%;
+}
+.home-ads{
+  display: flex;
+  width: 100%;
+}
+.home-ads img {
+  width: 302px;
+}
+
+.heading {
+  font-size: 29px;
+  font-weight: 600;
+  align-self: flex-start;
+  padding-right: 65%;
+}
+.all-category {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-category > img {
+  width: 250px;
+  height: 290px;
+  cursor: pointer;
+}
+.download-app {
+  width: 100%;
+}

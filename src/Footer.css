@@ -1,0 +1,119 @@
+footer {
+  display: inline-block;
+  padding: 30px 0px 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 10px 150px;
+}
+.foot-one {
+  display: flex;
+  margin: 0px 0px 20px;
+}
+.foot-one h6 {
+  font-size: 12px;
+  color: #000000;
+}
+.foot-one li {
+  list-style: none;
+  margin-bottom: 3px;
+  font-size: 15px;
+  color: #696b79;
+}
+
+.app-download-link {
+  width: 140px;
+}
+.social_icons {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.assurity {
+  display: flex;
+}
+
+.assurity-tag {
+  width: 48px;
+  height: 40px;
+  margin: 5px;
+}
+.assurity span {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+.foot-two {
+  padding: 2px 0px 40px;
+  border-bottom: 0.1px solid lightgray;
+  border-top: 0.1px solid lightgray;
+}
+.foot-two h6 {
+  color: #000000;
+  padding-right: 950px;
+}
+
+.foot-two p {
+  font-size: 15px;
+  color: #696b79;
+  line-height: 1.5;
+}
+.foot-two span {
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-two a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.foot-three {
+  border-bottom: 0.1px solid lightgray;
+  padding: 30px 0px 40px;
+}
+.foot-three-para {
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-three h6 {
+  color: #000000;
+  font-size: 15px;
+  margin-right: 400px;
+  font-weight: 600;
+}
+.foot-three p {
+  font-size: 15px;
+  color: #94969f;
+}
+.foot-three a {
+  text-decoration: none;
+  color: blue;
+}
+
+.foot-four {
+  display: inline-block;
+}
+.foot-four p {
+  font-size: 14px;
+  color: #94969f;
+}
+.foot-four b{
+font-weight: 700;
+}
+.foot-four h6 {
+  color: #535766;
+  font-size: 14px;
+}
+
+.foot-six{
+  padding: 30px 0px 40px;
+}
+.foot-six h6 {
+  color: #000000;
+  font-size: 15px;
+  margin-right: 400px;
+  font-weight: 600;
+}
+.foot-six p {
+  font-size: 15px;
+  color: #94969f;
+}

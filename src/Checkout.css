@@ -1,0 +1,198 @@
+.checkout {
+  display: block;
+}
+.checkout-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px 40px 10px 40px;
+  border-bottom: 0.01px solid #dcdcdc;
+  border-width: 0.3px;
+}
+.checkout-header-option {
+  display: flex;
+}
+.checkout-header-option p {
+  font-size: 13px;
+  color: #696b79;
+  margin-left: 10px;
+  font-family: Helvetica, sans-serif;
+}
+.secure-tick {
+  height: 28px;
+  width: 26px;
+}
+.checkout-content {
+  display: flex;
+  justify-content: center;
+}
+.checkout-right {
+  display: block;
+}
+.checkout-address {
+  width: 593px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #fff6f4;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #282c3f;
+}
+.bank-offers {
+  width: 596px;
+  height: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 0px 0px 10px;
+  cursor: pointer;
+}
+.bank-offers p {
+  color: #ff3f6c;
+  font-size: 14px;
+  font-weight: 700;
+}
+.discount-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.bank-offers span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.bank-offers li {
+  font-size: 13px;
+  color: #282c3f;
+}
+
+.add-from-wishlist {
+  height: 50px;
+  width: 588px;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 0px 10px 0px 10px;
+}
+.add-from-wishlist span {
+  display: flex;
+}
+.add-from-wishlist p {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 14px;
+  color: #282c3f;
+}
+.checkout-left {
+  margin-left: 10px;
+  border-top: 0.5px solid lightgray;
+  border-left: 0.5px solid lightgray;
+}
+.coupon-section {
+  display: block;
+  width: 320px;
+  height: 90px;
+  border-bottom: 0.5px solid lightgray;
+  background-color: #ffffff;
+  padding: 0px 0px 8px 25px;
+  margin: 5px;
+}
+.coupon-section h6 {
+  font-size: 12px;
+  color: #535766;
+}
+.coupon-section span {
+  display: flex;
+}
+.coupon-section span > button {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 16px;
+  border: 1px solid #ff3f6c;
+  color: #ff3f6c;
+  background-color: #ffffff;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.gifting {
+  margin-left: 20px;
+}
+.gifting h6 {
+  font-size: 12px;
+  color: #535766;
+  margin: 24px 0px 12px;
+  font-weight: 500;
+}
+.gifting-section {
+  height: 124px;
+  display: flex;
+  background-color: #fff6f4;
+  padding: 0px 8px 8px 12px;
+}
+.gifting-section img {
+  height: 120px;
+  width: 39px;
+}
+.gifting-section h5 {
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 700;
+}
+.gifting-section p {
+  font-size: 12px;
+  color: #282c3f;
+}
+.gifting-section h4 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff3f6c;
+  cursor: pointer;
+}
+.subtotal-section {
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+ margin: 20px;
+}
+.subtotal-section h6{
+    font-size: 12px;
+    color: #535766;
+    margin: 24px 0px 16px;
+}
+.subtotal-section span{
+    font-size: 14px;
+    color: #282c3f;
+    display: flex;
+    justify-content: space-between;
+}
+#grand-total{
+    width: 320px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.order-button{
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+
+}
+.order-button button{
+width: 320px;
+height: 40px;
+padding: 10px 16px;
+background-color: #ff3f6c;
+border: none;
+color: #ffffff;
+font-size: 14px;
+font-weight: 600;
+font-family: Helvetica, sans-serif;
+}

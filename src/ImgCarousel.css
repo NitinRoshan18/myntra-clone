@@ -1,0 +1,47 @@
+.carousel-container {
+  position: relative;
+  margin-top: 25px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.carousel-image {
+  width: 243px;
+  height: 285px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.bullet-points {
+  position: absolute;
+  left: 50%;
+  top: 105%;
+  transform: translateX(-50%);
+}
+
+.bullet {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.bullet.active {
+  background-color: grey;
+}

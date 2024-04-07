@@ -1,0 +1,99 @@
+.header {
+  height: 5rem;
+  width: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: #282c3f;
+  position: sticky;
+  background-color: #ffffff;
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 20px;
+}
+.myntra-logo {
+  height: 36px;
+  width: 53px;
+}
+.header-main {
+  font-size: 0.89rem;
+  font-weight: 700;
+  margin-right: 30px;
+}
+.header-main sup {
+  color: #ff3f6c;
+  padding-left: 3px;
+  font-size: 0.62rem;
+}
+.header-search {
+  background-color: #f5f5f6;
+  display: flex;
+  width: 22.5rem;
+  height: 2.5rem;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+#search-icon {
+  width: 40px;
+  font-size: 18px;
+  padding: 8px 0px 2px;
+}
+.header-search > input {
+  width: fit-content;
+  border: none;
+  font-size: 18px;
+  height: fit-content;
+  background-color: #f0f7ff;
+  width: 100%;
+  padding: 8px 10px 10px;
+}
+.header-search > input::placeholder {
+  font-size: 14px;
+}
+.user {
+  font-size: 12px;
+  font-weight: 700;
+  width: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user > p {
+ 
+  padding: 10px 0px 0px 0px;
+}
+.user-options{
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.header-icons {
+  font-size: 18px;
+  margin-left: 6px;
+
+}
+
+.link-button {
+  color: black;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.link-button:active,
+.link-button:focus {
+  color: #333;
+  outline: none;
+  box-shadow: none;
+}
