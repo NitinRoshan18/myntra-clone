@@ -1,13 +1,15 @@
 footer {
   display: inline-block;
-  padding: 30px 0px 40px;
+  padding: 30px 0px 100px;
+  align-content: center;
   align-items: center;
   justify-content: center;
-  margin: 10px 30px 10px 150px;
+  width: 100%;
 }
 .foot-one {
   display: flex;
   margin: 0px 0px 20px;
+  margin-left: 100px;
 }
 .foot-one h6 {
   font-size: 12px;
@@ -44,6 +46,7 @@ footer {
 
 .foot-two {
   padding: 2px 0px 40px;
+  margin-left: 100px;
   border-bottom: 0.1px solid lightgray;
   border-top: 0.1px solid lightgray;
 }
@@ -69,6 +72,7 @@ footer {
 .foot-three {
   border-bottom: 0.1px solid lightgray;
   padding: 30px 0px 40px;
+  margin-left: 100px;
 }
 .foot-three-para {
   display: flex;
@@ -91,6 +95,7 @@ footer {
 
 .foot-four {
   display: inline-block;
+  margin-left: 100px;
 }
 .foot-four p {
   font-size: 14px;
@@ -106,6 +111,7 @@ font-weight: 700;
 
 .foot-six{
   padding: 30px 0px 40px;
+  margin-left: 100px;
 }
 .foot-six h6 {
   color: #000000;

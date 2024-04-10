@@ -5,7 +5,7 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 6rem;
 }
 .home-row {
   display: flex;
@@ -15,7 +15,7 @@
   margin: 0;
 }
 .new-signup-discount {
-  width: 95rem;
+  width: 100%;
   align-self: center;
 }
 .sale-poster {
@@ -32,25 +32,28 @@
 }
 .home-ads{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 .home-ads img {
-  width: 302px;
+  width: 18.98rem;
 }
 
 .heading {
   font-size: 29px;
   font-weight: 600;
   align-self: flex-start;
-  padding-right: 65%;
+ 
+  padding-left: 50px;
 }
 .all-category {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .all-category > img {
-  width: 250px;
-  height: 290px;
+  width: 15.6rem;
+  height: 18.1rem;
   cursor: pointer;
 }
 .download-app {

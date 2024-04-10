@@ -1,84 +1,157 @@
 .header {
   height: 5rem;
-  width: auto;
+  width: 100%;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 2;
   color: #282c3f;
-  position: sticky;
+  position:fixed;
   background-color: #ffffff;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 20px;
   justify-content: space-between;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .logo {
   height: 3rem;
   width: 3rem;
-  margin-right: 20px;
+  margin-right: 1.25rem;
+  margin-left: 2rem;
 }
 .myntra-logo {
-  height: 36px;
-  width: 53px;
+  height: 2.25rem;
+  width: 3.31rem;
 }
 .header-main {
-  font-size: 0.89rem;
+  font-size: 0.87rem;
   font-weight: 700;
-  margin-right: 30px;
+  margin-right: 5px;
+  width: auto;
+  cursor: pointer;
 }
+/* Hover Styling */
+
+.men {
+  display: inline-block;
+  padding: 5px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 25;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.men-catog-options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Styling for the categorized options */
+.catog-option {
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+/* Show the menu container on hover */
+.men-categories:hover .menu-container {
+  display: block;
+}
+
+.catog-option h5 {
+  color: #ff3f6c;
+  font-size: 16px;
+}
+.catog-option li {
+  color: #696b79;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.catog-option li:hover {
+  font-size: bold;
+}
+.men:hover + .menu-container,
+.menu-container:hover {
+  display: block;
+}
+
+.men:hover + .menu-container,
+.menu-container:hover,
+.men:hover ~ .menu-container {
+  display: block;
+}
+.women {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .header-main sup {
   color: #ff3f6c;
-  padding-left: 3px;
+  padding-left: 0.18rem;
   font-size: 0.62rem;
 }
 .header-search {
   background-color: #f5f5f6;
   display: flex;
-  width: 22.5rem;
+  width: 23.5rem;
   height: 2.5rem;
   border-radius: 6px;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 #search-icon {
-  width: 40px;
-  font-size: 18px;
+  width: 2.5rem;
+  font-size: 1.12rem;
   padding: 8px 0px 2px;
+  background-color: #f0f7ff;
 }
 .header-search > input {
   width: fit-content;
   border: none;
-  font-size: 18px;
   height: fit-content;
   background-color: #f0f7ff;
   width: 100%;
   padding: 8px 10px 10px;
+  align-items: center;
+  justify-content: center;
 }
 .header-search > input::placeholder {
-  font-size: 14px;
+  font-size: 1rem;
+}
+.header-search > input:focus {
+  outline: none;
 }
 .user {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   width: auto;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 3rem;
 }
 .user > p {
- 
   padding: 10px 0px 0px 0px;
 }
-.user-options{
-  margin-right: 20px;
+.user-options {
+  margin-right: 1.25rem;
   display: flex;
   flex-direction: column;
 }
 .header-icons {
-  font-size: 18px;
-  margin-left: 6px;
-
+  font-size: 1rem;
+  margin-left: 0.37rem;
+  padding: 8px 0px 8px 0px;
 }
 
 .link-button {

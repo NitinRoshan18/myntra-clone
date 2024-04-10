@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Checkout from "./Checkout";
 
-
 function App() {
   return (
     <Router>
@@ -23,16 +22,16 @@ function App() {
               </>
             }
           />
-          <Route path="/login"  element={
-            <>
-            <Header />
-            <Login/>
-            </>
-          } />
-          <Route path="/Checkout"  element={
-            <Checkout/>
-          } />
-
+          <Route
+            path="/login"
+            element={
+              <>
+                <Header />
+                <Login />
+              </>
+            }
+          />
+          <Route path="/Checkout" element={<Checkout />} />
         </Routes>
       </div>
     </Router>

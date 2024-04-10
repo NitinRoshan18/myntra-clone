@@ -4,6 +4,7 @@ import ImgCarousel from "./ImgCarousel";
 import ImgCarousel2 from "./ImgCarousel2";
 import Products from "./Products";
 
+
 function Home() {
   return (
     <div className="home">
@@ -53,27 +54,39 @@ function Home() {
         />
       </div>
       <div className="home-ads">
-        <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/30/ce5f2a2e-6ef6-4f0b-8e98-df96074da9ed1711774925858-Louis_Philippe-_Van_Heusen.png"
-        alt=""/>
-        <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/30/754da4fa-fa9a-4734-a2cf-84e587ffcca01711774926332-Rare_Rabbit.png"
-        alt=""/>
-        <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/84cf5a2f-6ab2-4f72-8613-9495db4ed5571711706587317-CMF_by_Nothing.png"
-        alt=""/>
-        <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/50813817-e3d9-48ef-980a-900fd3d1e5db1711706588162-OnePlus.png"
-        alt=""/>
-        <img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/c159e4b7-7d34-430f-ae82-48b4abce39ca1711706588234-Guess-_nautica.png"
-        alt=""/>
+        <img
+          src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/30/ce5f2a2e-6ef6-4f0b-8e98-df96074da9ed1711774925858-Louis_Philippe-_Van_Heusen.png"
+          alt=""
+        />
+        <img
+          src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/30/754da4fa-fa9a-4734-a2cf-84e587ffcca01711774926332-Rare_Rabbit.png"
+          alt=""
+        />
+        <img
+          src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/84cf5a2f-6ab2-4f72-8613-9495db4ed5571711706587317-CMF_by_Nothing.png"
+          alt=""
+        />
+        <img
+          src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/50813817-e3d9-48ef-980a-900fd3d1e5db1711706588162-OnePlus.png"
+          alt=""
+        />
+        <img
+          src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2024/3/29/c159e4b7-7d34-430f-ae82-48b4abce39ca1711706588234-Guess-_nautica.png"
+          alt=""
+        />
       </div>
       <div className="home-heading">
         <p className="heading">MEDAL WORTHY BRANDS TO BAG</p> <br />
         <ImgCarousel />
       </div>
+      
       <div className="home-heading">
         <p className="heading">GRAND GLOBAL BRANDS</p> <br />
         <ImgCarousel2 />
         <p className="heading">SHOP BY CATEGORY</p>
         <br />
       </div>
+    
       <div className="home-row">
         <div className="all-category">
           <img
@@ -99,7 +112,7 @@ function Home() {
           <img
             src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/3a804edc-ce57-4eb5-bb6a-493d458973661690787338896-Shop-By-Category_HP-4_07.jpg"
             alt=""
-          />
+          /> 
           <img
             src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/84870fc6-4805-41a4-b9eb-a8d7adb6c0d21690787339128-Shop-By-Category_HP-4_08.jpg"
             alt=""
@@ -210,6 +223,8 @@ function Home() {
           />
         </div>
       </div>
+      <p className="heading">PRODUCTS LISTING</p>
+        <br />
       <div className="home-row">
         <Products
           id="12345"
@@ -323,7 +338,6 @@ function Home() {
           rating={4}
         />
       </div>
-
 
       <div className="home-row">
         <img

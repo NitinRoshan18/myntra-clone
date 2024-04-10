@@ -5,8 +5,12 @@ import { CiDiscount1 } from "react-icons/ci";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { RxBookmark } from "react-icons/rx";
 import { GoTag } from "react-icons/go";
+import Subtotal from "./Subtotal";
+import { useStateValue } from "./StateProvider";
+import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
+  const [{ basket, user }] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout-header">
@@ -23,6 +27,9 @@ function Checkout() {
           <p>B A G ..........</p>
           <p>A D D R E S S........</p>
           <p>P A Y M E N T</p>
+        </div>
+        <div className="checkout-header-option">
+          <p>Hello,{user?.email}</p>
         </div>
         <div className="checkout-header-option">
           <img
@@ -48,7 +55,17 @@ function Checkout() {
             </ul>
             <p>Show More^</p>
           </div>
-          <div>-----cart items here ------</div>
+          <div className="Cart-products">
+            {basket.map((item) => (
+              <CheckoutProduct
+                id={item.id}
+                title={item.title}
+                image={item.image}
+                price={item.price}
+                description={item.description}
+              />
+            ))}
+          </div>
           <div className="add-from-wishlist">
             <p>
               <span>
@@ -85,23 +102,24 @@ function Checkout() {
             </div>
           </div>
           <div className="subtotal-section">
-            <h6>PRICE DETAILS (0 Item)</h6>
-            <span>
+            <Subtotal />
+
+            {/*<span>
               <p>Total MRP</p>
               <p>₹0</p>
             </span>
             <span>
               <p>Shipping Fee</p>
               <p>₹0</p>
-            </span>
+          </span>*/}
           </div>
-          <div id="grand-total">
+          {/*<div id="grand-total">
             <h4>Total Amount</h4>
             <h4>₹0</h4>
           </div>
           <div className="order-button">
-          <button>PLACE ORDER</button>
-          </div>
+            <button>PLACE ORDER</button>
+          </div>*/}
         </div>
       </div>
     </div>
