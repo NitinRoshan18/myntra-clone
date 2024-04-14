@@ -10,7 +10,7 @@ import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
-  const [{ basket, user }] = useStateValue();
+  const [ {basket, user}, ] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout-header">
@@ -29,7 +29,7 @@ function Checkout() {
           <p>P A Y M E N T</p>
         </div>
         <div className="checkout-header-option">
-          <p>Hello,{user?.email}</p>
+          <p></p>
         </div>
         <div className="checkout-header-option">
           <img
@@ -42,7 +42,7 @@ function Checkout() {
       </div>
       <div className="checkout-content">
         <div className="checkout-right">
-          <div className="checkout-address">Deliver to:</div>
+          <div className="checkout-address">Deliver to:{user?.email}</div>
           <div className="bank-offers">
             <span>
               <CiDiscount1 className="discount-icon" /> Available Offers

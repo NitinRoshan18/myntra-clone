@@ -1,41 +1,38 @@
 import React from "react";
-import "./Products.css";
+import './Products.css';
+
 import { useStateValue } from "./StateProvider";
 
-function Products({ id, title, image, rating = 0, price, discount }) {
-  const [{}, dispatch] = useStateValue();
+function Product({ id, title, image, rating, price, discount }) {
+  const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
+    // Dispatch item to data layer
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
-        id: id,
-        title: title,
-        image: image,
-        rating: rating,
-        price: price,
-        discount: discount,
+        id,
+        title,
+        image,
+        rating,
+        price,
+        discount,
       },
     });
   };
 
   return (
-    <div className="products">
+    <div className="product">
       <img src={image} alt={title} />
-      <span className="product_rating">
+      <div className="product_rating">
         {Array.from({ length: rating }, (_, i) => (
           <p key={i}>⭐</p>
         ))}
-      </span>
+      </div>
       <div className="product_info">
-        <p>
-          <strong>{title}</strong>
-        </p>
+        <p>{title}</p>
         <p className="product_price">
-          <strong>Rs.</strong>
-          <strong style={{ fontSize: "14px", marginRight: "5px" }}>
-            {price}
-          </strong>
+          <strong>Rs. {price}</strong>
           <small style={{ color: "red", fontSize: "12px" }}>{discount}</small>
         </p>
       </div>
@@ -44,4 +41,4 @@ function Products({ id, title, image, rating = 0, price, discount }) {
   );
 }
 
-export default Products;
+export default Product;

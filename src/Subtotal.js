@@ -13,7 +13,7 @@ function Subtotal() {
     navigate("/Payment");
   };
 
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
 
   const totalPrice = getBasketTotal(basket);
 

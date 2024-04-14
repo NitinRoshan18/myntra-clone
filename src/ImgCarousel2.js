@@ -74,6 +74,7 @@ const ImgCarousel2 = () => {
               src={image}
               alt={`Image ${index + 1}`}
               className="carousel-image"
+              
             />
           ))}
       </div>

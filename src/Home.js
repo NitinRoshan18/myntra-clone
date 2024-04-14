@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import ImgCarousel from "./ImgCarousel";
 import ImgCarousel2 from "./ImgCarousel2";
-import Products from "./Products";
+import Product from "./Products";
 
 
 function Home() {
@@ -226,7 +226,7 @@ function Home() {
       <p className="heading">PRODUCTS LISTING</p>
         <br />
       <div className="home-row">
-        <Products
+        <Product
           id="12345"
           title="Jack & Jones"
           description="Single-Breasted Slim Fit Blazer"
@@ -235,7 +235,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24412558/2023/8/9/c011b72a-81ab-42d1-a1a4-7640aeeaea8b1691562200337SolidSlimFitBLAZER1.jpg"
           rating={3}
         />
-        <Products
+        <Product
           id="23456"
           title="
             STREET 9"
@@ -245,7 +245,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22807876/2023/4/18/2b64ad51-bc2b-4783-97c4-9a811ba0a4d01681812847739Shirts1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="34567"
           title="Mast & Harbour"
           description="Men Slim Fit Casual "
@@ -254,7 +254,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="45678"
           title="Jompers"
           description="Straight Pure Cotton Kurta"
@@ -263,7 +263,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23517974/2023/6/3/ee61d7cc-c7a1-49b4-8c37-d3db2f84a9f11685774002434JompersMenBlackGeometricThreadWorkKurta1.jpg"
           rating={2}
         />
-        <Products
+        <Product
           id="56789"
           title="KALINI"
           description="Anarkali Pure Cotton Kurta Set"
@@ -272,7 +272,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25234310/2023/9/26/d6241239-dca6-4347-b0e9-f8b57181d25d1695713495036KurtaSets1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="67890"
           title="PUMA"
           description="Men Graphic Slim Fit T-shirt"
@@ -283,7 +283,7 @@ function Home() {
         />
       </div>
       <div className="home-row">
-        <Products
+        <Product
           id="78901"
           title="Marks & Spencer"
           description="Boys Printed Cotton T-Shirt"
@@ -292,7 +292,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22975398/2023/5/2/034709db-b6a0-404e-ad70-8bb8c4e5a0481683026099690Tshirts1.jpg"
           rating={5}
         />
-        <Products
+        <Product
           id="89012"
           title="Aj DEZInES"
           description="Boys Printed Shirt With Shorts"
@@ -301,7 +301,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23098432/2023/6/13/60032b42-c13d-4770-af4b-5f54da36dd521686636361406-Aj-DEZInES-Boys-Printed-Shirt-With-Shorts-2781686636360895-1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="90123"
           title="Cutiekins"
           description="Girls Halter Neck Cotton Top "
@@ -310,7 +310,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27607698/2024/2/15/bbf45fdf-9c0c-4b5d-9408-f4798935ea2a1707979623566CutiekinsCottonTop1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="01234"
           title="Vero Moda"
           description="Girls Crop Denim Jacket"
@@ -319,7 +319,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25841978/2023/11/10/f2defdfb-69c3-4767-ac3a-cfea250cfd4c1699608847461VeroModaGIRLSolidCottonBlueJacket1.jpg"
           rating={4}
         />
-        <Products
+        <Product
           id="09876"
           title="boAt"
           description="Lunar Mirage Smartwatch"
@@ -328,7 +328,7 @@ function Home() {
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25223170/2023/9/28/a08f21a0-3c85-4a21-a2b7-5b29a2c112571695892768596-boAt-Unisex-Smart-Watches-111695892767995-1.jpg"
           rating={3}
         />
-        <Products
+        <Product
           id="98745"
           title="Garnier"
           description="Men Men Face Wash 100 g"

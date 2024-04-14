@@ -9,7 +9,7 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./Firebase";
 
 const Header = () => {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const { basket, user } = useStateValue();
   const handleAuthentication = () => {
     if (user) {
       auth.signOut();
@@ -251,8 +251,7 @@ const Header = () => {
         <Link to={!user && "/login"} className="link-button">
           <div onClick={handleAuthentication} className="user-options">
             <SlUser className="header-icons" />
-            Profile {!user ? "Guest" : user.email}{" "}
-            {user ? "Sign out" : "Sign In"}
+            {!user ? "Profile" : user.email} {user ? "Sign out" : ""}
           </div>
         </Link>
         <div className="user-options">

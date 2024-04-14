@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   getAuth,
   onAuthStateChanged,
@@ -73,12 +73,12 @@ function Login() {
           />
 
           <p>
-            By continuing, I agree to the <a>Terms of Use</a> &{" "}
-            <a>Privacy Policy</a>
+            By continuing, I agree to the <a href="/">Terms of Use</a> &{" "}
+            <a href="/">Privacy Policy</a>
           </p>
           <button type="submit" onClick={signIn}>CONTINUE</button>
           <p>
-            Have trouble logging in? <a>Get help</a>
+            Have trouble logging in? <a href="/">Get help</a>
           </p>
         </div>
         <button className='newAccount_button' onClick={register}>New Account</button>
