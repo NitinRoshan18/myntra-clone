@@ -231,7 +231,8 @@ function Home() {
           title="Jack & Jones"
           description="Single-Breasted Slim Fit Blazer"
           price={"2999"}
-          discount={" Rs. 6998 (50% OFF)"}
+          mrp={"Rs. 6998"}
+          discount={" (50% OFF)"}
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24412558/2023/8/9/c011b72a-81ab-42d1-a1a4-7640aeeaea8b1691562200337SolidSlimFitBLAZER1.jpg"
           rating={3}
         />
@@ -241,7 +242,8 @@ function Home() {
             STREET 9"
           description="Comfort Fit Satin Casual Shirt"
           price={"509"}
-          discount="Rs.1699 (70% OFF)"
+          mrp={"Rs.1699"}
+          discount=" (70% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22807876/2023/4/18/2b64ad51-bc2b-4783-97c4-9a811ba0a4d01681812847739Shirts1.jpg"
           rating={4}
         />
@@ -250,7 +252,8 @@ function Home() {
           title="Mast & Harbour"
           description="Men Slim Fit Casual "
           price={"629"}
-          discount="Rs.2099 (67% OFF)"
+          mrp={"Rs.2099"}
+          discount=" (67% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8717979/2019/3/20/585db9fe-1df0-458d-b218-6f514eabb9601553068826233-Mast--Harbour-Men-Shirts-4141553068825026-1.jpg"
           rating={4}
         />
@@ -259,7 +262,8 @@ function Home() {
           title="Jompers"
           description="Straight Pure Cotton Kurta"
           price={"890"}
-          discount="Rs. 3299 (73% OFF)"
+          mrp={"Rs. 3299"}
+          discount=" (73% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23517974/2023/6/3/ee61d7cc-c7a1-49b4-8c37-d3db2f84a9f11685774002434JompersMenBlackGeometricThreadWorkKurta1.jpg"
           rating={2}
         />
@@ -268,7 +272,8 @@ function Home() {
           title="KALINI"
           description="Anarkali Pure Cotton Kurta Set"
           price={"1399"}
-          discount="Rs. 6499 (Rs. 5100 OFF)"
+          mrp={"Rs. 6499"}
+          discount=" (Rs. 5100 OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25234310/2023/9/26/d6241239-dca6-4347-b0e9-f8b57181d25d1695713495036KurtaSets1.jpg"
           rating={4}
         />
@@ -277,7 +282,8 @@ function Home() {
           title="PUMA"
           description="Men Graphic Slim Fit T-shirt"
           price={"674"}
-          discount="Rs. 1499 (55% OFF)"
+          mrp={"Rs.1499"}
+          discount=" (55% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15684088/2022/11/6/1f54a1a1-b819-4e52-b641-784d528e7dd21667717405461PumaMenBlackGraphicT-Shirt1.jpg"
           rating={4}
         />
@@ -288,7 +294,8 @@ function Home() {
           title="Marks & Spencer"
           description="Boys Printed Cotton T-Shirt"
           price={"649"}
-          discount={" Rs.1299 (50% OFF)"}
+          mrp={"Rs.1299"}
+          discount={"  (50% OFF)"}
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22975398/2023/5/2/034709db-b6a0-404e-ad70-8bb8c4e5a0481683026099690Tshirts1.jpg"
           rating={5}
         />
@@ -297,7 +304,8 @@ function Home() {
           title="Aj DEZInES"
           description="Boys Printed Shirt With Shorts"
           price={"989"}
-          discount="Rs.2999 (67% OFF)"
+          mrp={"Rs.2999"}
+          discount=" (67% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23098432/2023/6/13/60032b42-c13d-4770-af4b-5f54da36dd521686636361406-Aj-DEZInES-Boys-Printed-Shirt-With-Shorts-2781686636360895-1.jpg"
           rating={4}
         />
@@ -306,7 +314,8 @@ function Home() {
           title="Cutiekins"
           description="Girls Halter Neck Cotton Top "
           price={"389"}
-          discount="Rs.1499 (74% OFF)"
+          mrp={"Rs.1499"}
+          discount="(74% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27607698/2024/2/15/bbf45fdf-9c0c-4b5d-9408-f4798935ea2a1707979623566CutiekinsCottonTop1.jpg"
           rating={4}
         />
@@ -315,7 +324,8 @@ function Home() {
           title="Vero Moda"
           description="Girls Crop Denim Jacket"
           price={"1499"}
-          discount="Rs.2499 (40% OFF)"
+          mrp={"Rs.2499"}
+          discount=" (40% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25841978/2023/11/10/f2defdfb-69c3-4767-ac3a-cfea250cfd4c1699608847461VeroModaGIRLSolidCottonBlueJacket1.jpg"
           rating={4}
         />
@@ -333,7 +343,8 @@ function Home() {
           title="Garnier"
           description="Men Men Face Wash 100 g"
           price={"207"}
-          discount="Rs. 259 (20% OFF)"
+          mrp={"Rs. 259"}
+          discount=" (20% OFF)"
           image="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10844924/2023/8/9/ff0b94c8-fef9-4e64-b20d-59a1ffaf70741691570137423-Garnier-Men-Power-White-Anti-Pollution-Double-Action-Face-Wa-1.jpg"
           rating={4}
         />

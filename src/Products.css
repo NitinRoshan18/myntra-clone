@@ -10,7 +10,7 @@
 }
 .product:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
+  
 }
 
 .product img {
@@ -25,19 +25,24 @@
   height: 100px;
 }
 .product > button {
-  background: #ff3e6c;
+  background: #ffffff;
   border: 1px solid;
   margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
+  border-color: lightgray;
   margin-left: 8px;
-  color: #ffffff;
+  color: #ff3e6c;
   cursor: pointer;
   border-radius: 3px;
+  font-weight: 550;
+  font-size: 13px;
 }
 .title {
   font-size: 16px;
   font-weight: 600px;
   height: 12px;
+}
+.product_price strong{
+  margin-right: 5px;
 }
 .description {
   font-size: 14px;

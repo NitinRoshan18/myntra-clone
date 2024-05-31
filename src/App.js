@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Checkout from "./Checkout";
+import Wishlist from "./Wishlist";
 import Payment from "./Payment";
 import { auth } from "./Firebase";
 import { StateProvider, useStateValue } from "./StateProvider";
@@ -63,11 +64,16 @@ function App() {
             }
           />
           <Route
-            path="/Payment"
+            path="/Wishlist"
             element={
-                <Payment />
+              <>
+                <Header />
+                <Wishlist />
+
+              </>
             }
           />
+          <Route path="/Payment" element={<Payment />} />
         </Routes>
       </div>
     </Router>

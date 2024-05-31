@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { HiMagnifyingGlass } from "react-icons/hi2";
@@ -9,7 +9,8 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./Firebase";
 
 const Header = () => {
-  const { basket, user } = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
+
   const handleAuthentication = () => {
     if (user) {
       auth.signOut();
@@ -248,25 +249,46 @@ const Header = () => {
         <input placeholder="Search for products, brands and more " />
       </div>
       <div className="user">
-        <Link to={!user && "/login"} className="link-button">
-          <div onClick={handleAuthentication} className="user-options">
-            <SlUser className="header-icons" />
-            {!user ? "Profile" : user.email} {user ? "Sign out" : ""}
+        <div onClick={handleAuthentication} className="user-options">
+          <div class="men-categories">
+            <Link to={!user && "/login"} className="link-button">
+              <SlUser className="header-icons" />
+              {!user ? "Profile" : user.email} {user ? "Sign out" : ""}
+            </Link>
           </div>
-        </Link>
+
+          <div className="menu-container">
+            <div className="men-catog-options">
+              <div className="catog-option">
+                <ul>
+                  <h5>Indian & Fushion Wear</h5>
+                  <li>T-Shirts</li>
+                  <li>Casual Shirts</li>
+                  <li>Formal Shirts</li>
+                  <li>Sweatshirts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+        <Link to="/wishlist" className="link-button">
         <div className="user-options">
           <FaRegHeart className="header-icons" />
           Wishlist
         </div>
+        </Link>
 
         <Link to="/checkout" className="link-button">
           <div className="user-options">
             <HiOutlineShoppingBag className="header-icons" />
             Bag
+            {basket?.length > 0 && (
+              <span className="header_option-lineTwo header_cartCount">
+                {basket?.length}
+              </span>
+            )}
           </div>
-          <span className="header_option-lineTwo header_cartCount">
-            {basket?.length}
-          </span>
         </Link>
       </div>
     </div>

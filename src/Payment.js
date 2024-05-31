@@ -22,7 +22,7 @@ function Payment() {
         <div className="checkout-header-option">
           <p>B A G ..........</p>
           <p>A D D R E S S........</p>
-          <p>P A Y M E N T</p>
+          <p style={{ color: "#20BD99", fontSize: "14px" }}>P A Y M E N T</p>
         </div>
         <div className="checkout-header-option">
           <img
